@@ -1,0 +1,9 @@
+/*
+ * LAPTOP/DESKTOP STYLES
+ * This file handles layout adjustments for larger screens (e.g., 1025px and up).
+ * This CSS is applied using a media query in the HTML link tag:
+ * <link rel="stylesheet" href="css/laptop.css" media="screen and (min-width: 1025px)">
+*/
+
+
+
