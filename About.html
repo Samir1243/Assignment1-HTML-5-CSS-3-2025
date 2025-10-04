@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="Main.css">
     <link rel="stylesheet" media="(max-width: 600px)" href="mobile.css">
     <link rel="stylesheet" media="(min-width: 601px) and (max-width: 1024px)" href="tablet.css">
+    <script src="allAboutME.MP4" defer> </script>
 </head>
+
 <body>
     <header>
         <h1>All About Me</h1>
@@ -25,19 +27,23 @@
     <div id="PersonalVideo">
         <video 
         id="video"
-        controls 
-        width="320" height="240" 
+        width="320" 
+        height="240" 
+        controls
         autoplay muted
         loop
-        poster="on_record.png"
+        poster="DSC06536.jpeg"
         preload="auto"
         >
-            <source src="on_record.mp4" type="video/mp4">
+            <source src="allAboutME.mp4" type="video/mp4">
             <source src="on_record.ogv" type="video/ogv">
         </video>
         <!--line break-->
         <br>
+        <button onclick="playPause()">Play or Pause the Video </button>
 
+
+        
         
         
     </div>
