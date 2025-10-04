@@ -5,11 +5,11 @@
 body {
     /*background-color: rgb(0, 0, 0);*/
     background: yellow; 
-    background: -moz-linear-gradient(left, red 0%, yellow 100%); 
-    background: -webkit-linear-gradient(left, red 0%, yellow 100%); 
-    background: -o-linear-gradient(left, red 0%, yellow 100%); 
+    background: linear-gradient(left, red 0%, yellow 100%); 
+    background: linear-gradient(left, red 0%, yellow 100%); 
+    background: linear-gradient(left, red 0%, yellow 100%); 
     background: linear-gradient(to right, red 0%,yellow 100%);
-    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -32,6 +32,7 @@ aside
     padding: 5px;
     width: 250px;
 }
+
 /* The wrapper ID style is used with a div tag to provide a 960px wide page */
 #wrapper {
     width: 960px;
@@ -104,7 +105,7 @@ h1,h2,h3,h4,h5,h6,p,li {
     height: 100px;
     width: 100px;
     float: left;
-    background-color: rgb(73, 214, 54);
+    background-color: rgb(black);
     margin: 15px;
     padding: 25px;
     opacity: .5;
@@ -115,8 +116,7 @@ h1,h2,h3,h4,h5,h6,p,li {
 .box:hover {
     opacity: 1;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+60,2ab0ed+100 */
-background: radial-gradient(ellipse at center,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 60%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+background: linear-gradient(rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 60%,rgba(42,176,237,1) 100%); 
 }
 
 /* This clear class style terminates float */
